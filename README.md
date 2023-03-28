@@ -16,17 +16,10 @@ then `pathfind(A, P, Q)` should return `6`.
 
 _Please avoid using libraries to implement the algorithmic side of this challenge, other libraries (such as PHPUnit or Jest for testing) are welcome._
 
-## What to do
-
-1. Clone/Fork this repo or create your own
-2. Implement the function described above
-2. Implement the function described above in any mainstream language you wish
-3. Provide unit tests for your submission
-4. Fill in the section(s) below
-
 ## Comments Section
-<!---
-Please fill in the sections below after you complete the challenge.
---->
 ### What I'm Pleased With
+The algorithm correctly computes the shortest path between two points and can handle relatively large maps without performance issues.
+The code is well organised and the tests ensure correct functionality of the path finder script.
 ### What I Would Have Done With More Time
+The tests could be more extensive so I would add more cases to the asserts and also add more tests for using the shortest-path script with arguments instead of just directly testing the path-finder.
+The naming conventions used for functions and variables could get confusing if implemented into a larger codebase so I would modify those with scalability in mind.

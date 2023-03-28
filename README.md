@@ -19,7 +19,16 @@ _Please avoid using libraries to implement the algorithmic side of this challeng
 ## Comments Section
 ### What I'm Pleased With
 The algorithm correctly computes the shortest path between two points and can handle relatively large maps without performance issues.
+
 The code is well organised and the tests ensure correct functionality of the path finder script.
+
+
 ### What I Would Have Done With More Time
 The tests could be more extensive so I would add more cases to the asserts and also add more tests for using the shortest-path script with arguments instead of just directly testing the path-finder.
+
 The naming conventions used for functions and variables could get confusing if implemented into a larger codebase so I would modify those with scalability in mind.
+
+The method for returning that a path is found using a 'magic value' isn't best practice, I would throw an exception for this instead.
+
+Using a Queue for nodes to be processed would be more efficient for larger maps.
+ 
